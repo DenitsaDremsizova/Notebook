@@ -1,0 +1,12 @@
+buy milk #1
+throw garbage #2
+call mom  at 5 #1
+feed cat #4
+look-up plane tickets #1
+book hotel #5
+make appointment with dentist #3
+schedule dinner with friends #2
+plan weekend hiking #5
+email Jane #1
+write homework #3
+drink beer #5

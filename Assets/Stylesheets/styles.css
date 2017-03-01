@@ -1,0 +1,193 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 21, 2017, 12:47:33 PM
+    Author     : user
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Tangerine');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+@import url('https://fonts.googleapis.com/css?family=Kalam');
+
+body{
+    font-size: 15px;
+    background-color: #e4e2e2;
+    font-family: Kalam;
+}
+
+main{
+    width: 1000px;
+    height: 700px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+}
+
+@media all and (max-width:999px) {
+    main {
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
+
+#main1{
+    background-image: url('../Images/background1.png');
+    
+    background-repeat: no-repeat;
+    padding: 2% 4%;
+}
+
+#main2{
+    background-image: url('../Images/background2.jpg');
+    background-repeat: no-repeat;
+    padding: 6% 4%;
+}
+
+section{
+    display: inline-block;
+    width: 45%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+
+#rightPage{
+    margin-left: 5%;
+    float:right;
+    padding-top: 4%;
+}
+
+#leftPage{
+        padding-left: 4%;
+        padding-top: 3%;
+        line-height: 0.75em;
+        color: #990000;
+}
+
+input[type="submit"]{
+    background-color: #ad6a49;
+    color:white;
+}
+
+#img1{
+    width: 22%;
+    margin: 0% 40%;
+}
+
+.img2{
+    width: 19%;
+    display: inline-block;
+    float: right;
+    margin-top: 5%;
+}
+
+ol{
+    list-style-type: decimal; 
+}
+
+li{
+    display: inline-block;
+    width: 80%;
+    word-wrap: break-word;
+    vertical-align: central;
+}
+
+a.tangerine{
+    text-decoration: none;
+    color: #990000;
+    font-size: 1.75em;
+    margin: 0 13%;
+}
+
+a.tangerine:hover{
+    color: crimson;
+}
+
+table {
+    width: 60%;
+    margin: 15% 20% 5% 20% ;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 1px 8px 1px 3px;
+    text-align: left;
+    font-family: Arial;
+    font-size: 16px;
+    border: solid 1px;
+    border-color: appworkspace;
+    line-height: 1.5em;
+    box-sizing: border-box;
+    font-family: Kalam;
+}
+
+.left-col{
+    width: 13%;
+}
+
+h1{
+    margin: 0;
+    float: right;
+    color: white;
+    font-size: 4em;
+}
+
+.tangerine{
+    font-family: Tangerine;
+}
+
+th{
+    color: white;
+}
+
+.blue{
+    color: #006699;
+    background-color: #99e7ff;
+}
+
+.green{
+    color:green;
+    background-color: #99ff99;
+}
+
+.yellow{
+    color:#cc6600;
+    background-color: #ffff66;
+}
+
+.orange{
+    color: #993300;
+    background-color: #ffcc66;
+}
+
+.red{
+    color:#cc0033;
+    background-color: #ff9999;
+}
+
+th{
+    background-color: grey;
+}
+
+a.indie-flower{
+    font-size: 2.5em;
+    margin: 0% 35%;
+    font-family: Indie Flower;
+    text-decoration: none;
+    color: #669900;
+    display: inline-block;
+}
+
+a.indie-flower:hover{
+    text-decoration: underline;
+}
+
+strong{
+    margin-left: 20%;
+    color: crimson;
+}
+

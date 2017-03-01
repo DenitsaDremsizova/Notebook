@@ -1,0 +1,5 @@
+----TO DO------
+
+- add pages to display all notes when they cannot fit in 1 page;
+- add message box for all invalid input messages
+- revise and optimise code (My Notebook page)
